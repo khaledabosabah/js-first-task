@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- my style -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <h1 class="text-info text-center my-4 fw-bold">To do list</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
+                <div class="card bg-secondary text-white">
+                    <div class="card-body">
+                        <div class="form-group text-center"><label for="newTask" class="my-2 fw-bold fs-4"> Enter Your
+                                task</label>
+                            <input id="newTask" type="text" class="form-control my-2"
+                                placeholder="Here u can add a task">
+                        </div>
+                        <div class="text-center">
+                            <button id="addBtn" class="btn btn-primary w-50 my-2 ">Add Task</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-info text-center my-4 fw-bold">You have <span id="count">0</span> tasks</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
+                <div class="card bg-secondary text-white">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <div id="allTask"></div>
+
+
+                            <div id="noTask" class="alert alert-success fw-bold">You have finished all the tasks</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- popper -->
+    <script src="../javascript/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../javascript/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <script src="../javascript/all.min.js"></script>
+    <!-- my script -->
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>
